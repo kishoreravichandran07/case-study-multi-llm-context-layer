@@ -1,0 +1,30 @@
+{
+  "digests": {
+    "sam": [
+      {
+        "owner": "alex",
+        "id": "C1",
+        "text": "project deployment ready"
+      }
+    ],
+    "alex": [
+      {
+        "owner": "priya",
+        "id": "N1",
+        "text": "project deployment ready"
+      }
+    ]
+  },
+  "quarantine": [
+    {
+      "owner": "alex",
+      "id": "C2",
+      "reason": "unknown project or conflicting status"
+    },
+    {
+      "owner": "priya",
+      "id": "N2",
+      "reason": "unknown project or conflicting status"
+    }
+  ]
+}
