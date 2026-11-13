@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": "P-1",
+      "status": "pilot"
+    }
+  ],
+  "grants": {
+    "alex": [
+      "sam"
+    ],
+    "priya": [
+      "alex"
+    ]
+  },
+  "exports": [
+    {
+      "format": "chat",
+      "owner": "alex",
+      "messages": [
+        {
+          "role": "assistant",
+          "context": {
+            "id": "C1",
+            "project_id": "P-1",
+            "status": "pilot",
+            "scope": "work",
+            "text": "project deployment ready"
+          }
+        },
+        {
+          "role": "assistant",
+          "context": {
+            "id": "C2",
+            "project_id": "P-1",
+            "status": "launched",
+            "scope": "work",
+            "text": "project deployment ready"
+          }
+        },
+        {
+          "role": "assistant",
+          "context": {
+            "id": "C3",
+            "project_id": "P-1",
+            "status": "pilot",
+            "scope": "personal",
+            "text": "customer birthday reminder"
+          }
+        }
+      ]
+    },
+    {
+      "format": "notes",
+      "owner": "priya",
+      "notes": [
+        {
+          "id": "N1",
+          "project_id": "P-1",
+          "status": "pilot",
+          "scope": "work",
+          "text": "project deployment ready"
+        },
+        {
+          "id": "N2",
+          "project_id": "P-404",
+          "status": "pilot",
+          "scope": "work",
+          "text": "project deployment ready"
+        }
+      ]
+    }
+  ]
+}
