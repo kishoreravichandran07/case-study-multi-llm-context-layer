@@ -44,5 +44,5 @@ not just choosing a model.
 ---
 
 *For a working illustration of related ideas, see the companion repository
-`demo-llm-context-layer`: an assistant-built demo with synthetic data, created for this
-portfolio. It is not the original system.*
+`demo-llm-context-layer`: a demo with synthetic data, created for this portfolio.
+It is not the original system.*
